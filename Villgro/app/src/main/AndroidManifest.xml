@@ -28,6 +28,11 @@
         <activity
             android:name=".UserDashboard"
             android:label="@string/title_activity_user_dashboard" >
+            <intent-filter>
+                <action android:name="com.team9.villgro.USERDASHBOARD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
     </application>
 

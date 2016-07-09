@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="3dp"
+    android:layout_margin="2dp"
     app:cardElevation="5dp"
     app:cardCornerRadius="7dp"
     app:cardPreventCornerOverlap="false"
@@ -22,7 +22,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:padding="8dp"
+            android:paddingLeft="3dp"
             android:text="Course"
             android:textColor="@color/primary_text"
             android:textSize="30dp" />
@@ -30,10 +30,11 @@
         <TextView
             android:id="@+id/course_description"
             android:layout_width="fill_parent"
+            android:paddingLeft="3dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/course_title"
-            android:padding="8dp"
-            android:paddingTop="6dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
             android:text="dvgfbvc"
             android:textColor="@color/primary_text"
             android:textSize="22dp" />
@@ -52,7 +53,7 @@
             android:layout_marginBottom="10dp"
             android:progress="45"/>
 
-        <ImageView
+        <!--<ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
@@ -61,7 +62,7 @@
             android:layout_marginTop="10dp"
             android:layout_above="@+id/course_description"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignParentEnd="true" />-->
 
 
     </RelativeLayout>
