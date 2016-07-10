@@ -1,45 +1,49 @@
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
+    <style>
+    #cent1 {
+  position:absolute;
+  top:30%;
+  left:50%;
+  margin-top:-50px; /* this is half the height of your div*/  
+  margin-left:-100px; /*this is half of width of your div*/
+        }
+    
+#cent {
+  position:absolute;
+  top:30%;
+  left:50%;
+  margin-top:-50px; /* this is half the height of your div*/  
+  margin-left:-100px; /*this is half of width of your div*/
+        }
+    </style>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link href='https://fonts.googleapis.com/css?family=Jaldi:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
   	
-	<title>List of Users</title>
+	<title>Responsive Sidebar Navigation | CodyHouse</title>
 </head>
 <body>
-	<h1>List of Users and their courses</h1>
+	<header class="cd-main-header">
+		<a href="#0" class="cd-logo"><img src="img/villgro.gif" alt="Logo" width="50" height="32"></a>
+	</header> <!-- .cd-main-header -->
+    
+<div id="cent">
+    <h1>Course title </h1><br>
+    <input type="text" name="txt1"><br><br>
+    <h1> Description </h1><br>
+    <textarea rows="12" cols="20"></textarea><br><br>
+    <input type="button" value="upload">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="publish">
+    </div>
 
-	<ul class="cd-accordion-menu animated">
-		<li class="has-children">
-			<input type="checkbox" name ="group-1" id="group-1" checked>
-			<label for="group-1">User1</label>
-		</li>
-
-		<li class="has-children">
-			<input type="checkbox" name ="group-2" id="group-2">
-			<label for="group-2">User2</label>
-
-		</li>
-
-		<li class="has-children">
-			<input type="checkbox" name ="group-3" id="group-3">
-			<label for="group-3">User3</label>
-
-		</li>
-
-		<li class="has-children">
-			<input type="checkbox" name ="group-4" id="group-4">
-			<label for="group-4">User4</label>
-
-		</li>
-	</ul> <!-- cd-accordion-menu -->
 <script src="js/jquery-2.1.4.js"></script>
+<script src="js/jquery.menu-aim.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
 </body>
 </html>

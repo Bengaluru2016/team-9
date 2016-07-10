@@ -1,11 +1,14 @@
-Multi-Level Accordion Menu
+Responsive Sidebar Navigation
 =========
-A simple CSS accordion menu with support for sub level items.
 
-[Article on CodyHouse](https://codyhouse.co/gem/css-multi-level-accordion-menu)
+An easy-to-integrate side, vertical navigation, ideal for dashboards and admin areas.
 
-[Demo](https://codyhouse.co/demo/multi-level-accordion-menu/index.html)
+[Article on CodyHouse](http://codyhouse.co/?p=881)
 
-Icons: [Nucleo](https://nucleoapp.com/)
+[Demo](http://codyhouse.co/demo/responsive-sidebar-navigation/index.html)
  
-[Terms](https://codyhouse.co/terms/)
+[Terms](http://codyhouse.co/terms/)
+
+Icons: [Nucleo Library](https://nucleoapp.com/)
+
+Diagonal movement plugin: [jQuery-menu-aim](https://github.com/kamens/jQuery-menu-aim)
